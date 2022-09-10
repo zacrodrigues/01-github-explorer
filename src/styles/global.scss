@@ -1,0 +1,10 @@
+* {
+    margin: 0; // Retirando todos os espaços externos de todos os elementos.
+    padding: 0; // Retirando todos os espaços internos de todos os elementos.
+    box-sizing: border-box; // Definindo o tamanho dos elementos como referência a sua própria borda, para que o tamanho não altere ao aplicarmos o padding nos elementos.
+}
+
+body {
+    font: 16px "Helvetica Neue", Arial, sans-serif; // Tipografia padrão para toda aplicação.
+    color: #121214; // Cor padrão para os texto de toda aplicação.
+}
